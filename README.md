@@ -35,3 +35,9 @@ python .\helloworld.py
 The message will be printed with success.
 
 ![print04](/docs/print04.JPG)
+
+//Python Batch command script
+virtualenv venv
+source venv/bin/activate # for Linux/Mac, use 'venv\Script\activate' on Windows
+pip install -r requirements.txt
+python .\helloworld.py
